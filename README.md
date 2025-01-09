@@ -6,4 +6,4 @@ This project is a simple yet effective tool that recognizes single handwritten n
 
 ## How It Works
 
-The recognizer utilizes a basic Convolutional Neural Network (CNN) trained on handwritten digit data. By analyzing 28 pixels simultaneously, the model predicts the number based on the patterns formed by the lines. Key libraries such as NumPy and TensorFlow are employed for data processing and model computations.
+The recognizer utilizes a basic Convolutional Neural Network (CNN) trained on handwritten digit data. By analyzing 28 pixels line by line, the model predicts the number based on the patterns formed by the lines. Key libraries such as NumPy and TensorFlow are employed for data processing and model computations.
